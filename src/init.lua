@@ -1,4 +1,5 @@
 local HttpService = game:GetService("HttpService")
+
 local AuthAPI = {}
 
 local AUTHENTICATION_URL = "https://www.authenticatorapi.com/Validate.aspx?Pin=%s&SecretCode=%s"

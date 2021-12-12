@@ -1,3 +1,9 @@
+--[[
+	Authors:
+		deprecatedbrain (co_existance) (12/11/2021), -- Creating the original file
+		LucasMZ (12/12/2021), -- Type annotation & checking, error improvements...
+]]
+
 local HttpService = game:GetService("HttpService")
 
 local AuthAPI = {}

@@ -22,7 +22,7 @@ function AuthAPI.CheckPinAsync(
 	)
 
 	assert(
-		typeof(secret) == 'string',
+		type(secret) == "string",
 		"Secret must be string"
 	)
 
@@ -56,17 +56,17 @@ function AuthAPI.GetQRCodeURL(
 ): string
 
 	assert(
-		typeof(appName) == 'string',
+		type(appName) == "string",
 		"AppName must be string"
 	)
 
 	assert(
-		typeof(appInfo) == 'string',
+		type(appInfo) == "string",
 		"AppInfo must be string"
 	)
 
 	assert(
-		typeof(secret) == 'string',
+		type(secret) == "string",
 		"Secret must be string"
 	)
 

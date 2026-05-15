@@ -2,6 +2,9 @@
 # AuthAPI
 A simple way to use an authentication app in Roblox
 
+> [!CAUTION]
+> I don't recommend you use this for any real work. I made it a long time ago and didn't follow the best practices. It's on my todo list to remake, but it's not not very high.
+
 API
 -
  **authAPI.GetQRCodeURL(AppName, AppInfo, Secret)**
